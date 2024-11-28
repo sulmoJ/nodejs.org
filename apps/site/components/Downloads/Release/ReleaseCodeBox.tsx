@@ -33,11 +33,18 @@ const ReleaseCodeBox: FC = () => {
   const codeLanguage = os === 'WIN' ? 'PowerShell' : 'Bash';
 
   return (
-    <DownloadCodeBox
-      codeLanguage={codeLanguage}
-      code={code}
-      versionWithPrefix={release.versionWithPrefix}
-    />
+    <>
+      <DownloadCodeBox
+        codeLanguage={codeLanguage}
+        code={code}
+        versionWithPrefix={release.versionWithPrefix}
+      />
+      <span className="text-center text-xs text-neutral-800 dark:text-neutral-200">
+        {t('layouts.download.codeBox.communityWarning')}
+        <br />
+        <b>{t('layouts.download.codeBox.communityWarningReport')}</b>
+      </span>
+    </>
   );
 };
 

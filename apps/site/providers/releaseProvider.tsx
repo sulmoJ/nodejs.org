@@ -18,6 +18,7 @@ const initialState: ReleaseState = {
   os: 'OTHER',
   bitness: '',
   platform: 'NVM',
+  versionManager: 'NVM',
 };
 
 const createDispatchActions = (
@@ -27,6 +28,8 @@ const createDispatchActions = (
   setOS: payload => dispatch({ type: 'SET_OS', payload }),
   setBitness: payload => dispatch({ type: 'SET_BITNESS', payload }),
   setPlatform: payload => dispatch({ type: 'SET_PLATFORM', payload }),
+  setVersionManager: payload =>
+    dispatch({ type: 'SET_VERSION_MANAGER', payload }),
 });
 
 export const ReleaseContext = createContext<ReleaseContextType>({
@@ -53,6 +56,8 @@ export const ReleaseProvider: FC<PropsWithChildren<ReleaseProviderProps>> = ({
         return { ...state, bitness: action.payload };
       case 'SET_PLATFORM':
         return { ...state, platform: action.payload };
+      case 'SET_VERSION_MANAGER':
+        return { ...state, versionManager: action.payload };
       default:
         return state;
     }

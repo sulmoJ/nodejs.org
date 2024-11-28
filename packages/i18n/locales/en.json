@@ -292,7 +292,7 @@
         "bitness": "Bitness",
         "os": "Operating System",
         "version": "Version",
-        "platform": "Platform"
+        "versionManager": "Version Manager"
       },
       "codeBox": {
         "unsupportedVersionWarning": "This version is out of maintenance. Find more information here:",

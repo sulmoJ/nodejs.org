@@ -45,7 +45,7 @@ const WithDownloadCategories: FC<PropsWithChildren> = async ({ children }) => {
           {
             category: 'other-ways',
             label: t('layouts.download.categories.other-ways'),
-          }
+          },
         ],
         subCategory: subCategory,
       })}

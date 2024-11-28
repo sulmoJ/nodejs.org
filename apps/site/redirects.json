@@ -282,7 +282,7 @@
     },
     {
       "source": "/:locale/download",
-      "destination": "/:locale/download/package-manager"
+      "destination": "/:locale/download/version-manager"
     },
     {
       "source": "/download/package-manager",

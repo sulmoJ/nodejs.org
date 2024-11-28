@@ -10,13 +10,14 @@ import ReleaseDownloadButton from './components/Downloads/Release/DownloadButton
 import NpmLink from './components/Downloads/Release/NpmLink';
 import OperatingSystemDropdown from './components/Downloads/Release/OperatingSystemDropdown';
 import PlatformDropdown from './components/Downloads/Release/PlatformDropdown';
-import ReleaseCodeBox from './components/Downloads/Release/ReleaseCodeBox';
 import PreBuiltBinariesCodeBox from './components/Downloads/Release/PreBuiltBinariesCodeBox';
+import ReleaseCodeBox from './components/Downloads/Release/ReleaseCodeBox';
 import ReleaseStatus from './components/Downloads/Release/ReleaseStatus';
 import ReleaseVersion from './components/Downloads/Release/ReleaseVersion';
 import SourceButton from './components/Downloads/Release/SourceButton';
 import VerifyingBinariesLink from './components/Downloads/Release/VerifyingBinariesLink';
 import VersionDropdown from './components/Downloads/Release/VersionDropdown';
+import VersionManagerDropdown from './components/Downloads/Release/VersionManagerDropdown';
 import UpcomingMeetings from './components/MDX/Calendar/UpcomingMeetings';
 import SearchPage from './components/MDX/SearchPage';
 import WithBadge from './components/withBadge';
@@ -75,5 +76,7 @@ export const mdxComponents = {
     ChangelogLink: ChangelogLink,
     // Renders a Pre-built Binaries CodeBox
     PreBuiltBinariesCodeBox: PreBuiltBinariesCodeBox,
+    // Renders a Version Manager Dropdown
+    VersionManagerDropdown: VersionManagerDropdown,
   },
 };

@@ -38,6 +38,9 @@ export const operatingSystemItems = [
   },
 ];
 
+/**
+ * @deprecated
+ */
 export const platformItems = [
   {
     label: PackageManagerLabel.NVM,
@@ -58,6 +61,17 @@ export const platformItems = [
   {
     label: PackageManagerLabel.DOCKER,
     value: 'DOCKER' as PackageManager,
+  },
+];
+
+export const versionManagerItems = [
+  {
+    label: PackageManagerLabel.NVM,
+    value: 'NVM' as PackageManager,
+  },
+  {
+    label: PackageManagerLabel.FNM,
+    value: 'FNM' as PackageManager,
   },
 ];
 

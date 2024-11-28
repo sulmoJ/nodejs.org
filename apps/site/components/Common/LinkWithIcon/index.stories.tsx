@@ -8,7 +8,7 @@ type Meta = MetaObj<typeof LinkWithIcon>;
 export const Default: Story = {
   args: {
     href: 'https://nodejs.org/',
-    children: 'Node.js'
+    children: 'Node.js',
   },
 };
 

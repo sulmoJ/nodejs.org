@@ -1,4 +1,7 @@
 'use client';
+/**
+ * BROKEN and not used anymore
+ */
 import { useTranslations } from 'next-intl';
 import { useContext, useEffect, useMemo } from 'react';
 import type { FC } from 'react';
