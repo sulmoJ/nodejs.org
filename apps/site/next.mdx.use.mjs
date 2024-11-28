@@ -11,6 +11,7 @@ import NpmLink from './components/Downloads/Release/NpmLink';
 import OperatingSystemDropdown from './components/Downloads/Release/OperatingSystemDropdown';
 import PlatformDropdown from './components/Downloads/Release/PlatformDropdown';
 import ReleaseCodeBox from './components/Downloads/Release/ReleaseCodeBox';
+import PreBuiltBinariesCodeBox from './components/Downloads/Release/PreBuiltBinariesCodeBox';
 import ReleaseStatus from './components/Downloads/Release/ReleaseStatus';
 import ReleaseVersion from './components/Downloads/Release/ReleaseVersion';
 import SourceButton from './components/Downloads/Release/SourceButton';
@@ -72,5 +73,7 @@ export const mdxComponents = {
     ReleaseCodeBox: ReleaseCodeBox,
     // Renders a Changelog Modal Link Button
     ChangelogLink: ChangelogLink,
+    // Renders a Pre-built Binaries CodeBox
+    PreBuiltBinariesCodeBox: PreBuiltBinariesCodeBox,
   },
 };
