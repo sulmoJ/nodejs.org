@@ -290,11 +290,15 @@
     },
     {
       "source": "/:locale/download/current",
-      "destination": "/:locale/download/package-manager/current"
+      "destination": "/:locale/download/version-manager/current"
     },
     {
       "source": "/:locale/learn/getting-started/nodejs-with-typescript",
       "destination": "/:locale/learn/typescript/introduction"
+    },
+    {
+      "source": "/:locale/download/package-manager/all",
+      "destination": "/:locale/download/os-package-manager"
     }
   ],
   "internal": []

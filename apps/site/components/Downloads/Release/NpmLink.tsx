@@ -3,18 +3,18 @@
 import { useContext } from 'react';
 import type { FC } from 'react';
 
-import LinkWithArrow from '@/components/Downloads/Release/LinkWithArrow';
+import LinkWithIcon from '@/components/Common/LinkWithIcon';
 import { ReleaseContext } from '@/providers/releaseProvider';
 
 const NpmLink: FC = () => {
   const { release } = useContext(ReleaseContext);
 
   return (
-    <LinkWithArrow
+    <LinkWithIcon
       href={`https://github.com/npm/cli/releases/tag/v${release.npm}`}
     >
       npm ({release.npm})
-    </LinkWithArrow>
+    </LinkWithIcon>
   );
 };
 

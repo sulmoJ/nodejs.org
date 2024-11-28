@@ -3,7 +3,7 @@
 import type { FC, PropsWithChildren } from 'react';
 import { useContext } from 'react';
 
-import LinkWithArrow from '@/components/Downloads/Release/LinkWithArrow';
+import LinkWithIcon from '@/components/Common/LinkWithIcon';
 import { ReleaseContext } from '@/providers/releaseProvider';
 
 const BlogPostLink: FC<PropsWithChildren> = ({ children }) => {
@@ -11,7 +11,7 @@ const BlogPostLink: FC<PropsWithChildren> = ({ children }) => {
   const version = release.versionWithPrefix;
 
   return (
-    <LinkWithArrow href={`/blog/release/${version}`}>{children}</LinkWithArrow>
+    <LinkWithIcon href={`/blog/release/${version}`}>{children}</LinkWithIcon>
   );
 };
 

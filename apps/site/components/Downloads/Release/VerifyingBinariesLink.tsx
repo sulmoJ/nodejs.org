@@ -1,11 +1,11 @@
 import type { FC, PropsWithChildren } from 'react';
 
-import LinkWithArrow from '@/components/Downloads/Release/LinkWithArrow';
+import LinkWithIcon from '@/components/Common/LinkWithIcon';
 
 const VerifyingBinariesLink: FC<PropsWithChildren> = ({ children }) => (
-  <LinkWithArrow href="https://github.com/nodejs/node#verifying-binaries">
+  <LinkWithIcon href="https://github.com/nodejs/node#verifying-binaries">
     {children}
-  </LinkWithArrow>
+  </LinkWithIcon>
 );
 
 export default VerifyingBinariesLink;

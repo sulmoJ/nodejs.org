@@ -2,7 +2,7 @@
 
 import Blockquote from './components/Common/Blockquote';
 import Button from './components/Common/Button';
-import LinkWithArrow from './components/Downloads/Release/LinkWithArrow';
+import LinkWithIcon from './components/Common/LinkWithIcon';
 import Link from './components/Link';
 import MDXCodeBox from './components/MDX/CodeBox';
 import MDXCodeTabs from './components/MDX/CodeTabs';
@@ -19,7 +19,7 @@ export const clientMdxComponents = {
   // Renders a Button Component for `button` tags
   Button: Button,
   // Links with External Arrow
-  LinkWithArrow: LinkWithArrow,
+  LinkWithIcon: LinkWithIcon,
   // Regular links (without arrow)
   Link: Link,
 };

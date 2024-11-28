@@ -279,10 +279,10 @@
     "download": {
       "selectCategory": "Categories",
       "categories": {
-        "prebuilt-installer": "Prebuilt Installer",
+        "version-manager": "Version Manager",
+        "os-package-manager": "OS Package Manager",
         "prebuilt-binaries": "Prebuilt Binaries",
-        "package-manager": "Package Manager",
-        "source-code": "Source Code"
+        "other-ways": "Other Ways"
       },
       "buttons": {
         "prebuilt": "Download Node.js {version}",

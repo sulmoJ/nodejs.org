@@ -28,22 +28,24 @@ const WithDownloadCategories: FC<PropsWithChildren> = async ({ children }) => {
       tabs={mapCategoriesToTabs({
         page: page,
         categories: [
+          // i18n keys
+          // layouts.download.categories.xxx
           {
-            category: 'package-manager',
-            label: t('layouts.download.categories.package-manager'),
+            category: 'version-manager',
+            label: t('layouts.download.categories.version-manager'),
           },
           {
-            category: 'prebuilt-installer',
-            label: t('layouts.download.categories.prebuilt-installer'),
+            category: 'os-package-manager',
+            label: t('layouts.download.categories.os-package-manager'),
           },
           {
             category: 'prebuilt-binaries',
             label: t('layouts.download.categories.prebuilt-binaries'),
           },
           {
-            category: 'source-code',
-            label: t('layouts.download.categories.source-code'),
-          },
+            category: 'other-ways',
+            label: t('layouts.download.categories.other-ways'),
+          }
         ],
         subCategory: subCategory,
       })}
